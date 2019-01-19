@@ -2,6 +2,7 @@
 """Plays an A4 for 1 second."""
 
 import sounddevice as sd
+from aoide import Note, Wave
 
 a4 = Note(440, 1)
 wave = Wave("sine", 48000, a4)
